@@ -154,3 +154,65 @@ body {
     color: var(--cor-secundaria);
     margin-bottom: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+        height: 20%;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+}
+
+
+/* ================================================================= */
+
+
+@media screen and (max-width: 900px) {
+
+    .container {
+        height: 50%;
+        margin: 1em 1em;
+    }
+    
+    .container__caixa {
+        margin: 0 5.5em;
+    }
+
+    .container__imagem {
+        width: 28vw;
+    }
+
+    img {
+        margin: 0;
+        width: 30vw;
+    }
+
+    .rodape__lista {
+        margin: 2em 2em;
+    }
+}
